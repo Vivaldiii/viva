@@ -9,5 +9,5 @@ from selenium.webdriver.common.by import By
 
 driver = WebDriver()
 driver.get("https://www.cnblogs.com/yoyoketang/p/6123834.html")
-driver.implicitly_wait(3)
+driver.implicitly_wait(5)
 driver.quit()
